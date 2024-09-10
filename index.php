@@ -144,14 +144,14 @@ $team = array(
         ),
     ),
     2 => array(
-        'name' => 'Sarah Smith',
-		'DOB' => '1995-05-15',
-        'job_title' => 'Software Engineer',
-        'email' => 'sarah.smith@example.com',
-        'phone' => '+1 123-456-7890',
+        'name' => 'Tyler Smith',
+		'DOB' => '2004-11-14',
+        'job_title' => 'Penetration Tester',
+        'email' => 'smitht87@mymail.nku.edu',
+        'phone' => '+1 270-403-1110',
         'linkedin' => 'linkedin.com/in/sarahsmith',
         'github' => 'github.com/sarahsmith',
-        'website' => 'sarahsmith.com',
+        'website' => 'tylersmith.com',
 		'image' => 'assets/images/2.jpg',
         'summary' => "I'm a passionate software engineer with a strong background in web development. I specialize in front-end development using technologies like HTML, CSS, and JavaScript. I have a knack for creating responsive and user-friendly web interfaces. I'm also experienced in back-end development with proficiency in PHP, Python, and Node.js. My goal is to leverage my technical skills to create innovative and efficient software solutions.",
         'work_experience' => array(
@@ -209,9 +209,9 @@ $team = array(
         ),
         'education' => array(
             array(
-                'degree' => 'BSc in Computer Science',
-                'school' => 'University of Example',
-                'time_period' => '2016-2020',
+                'degree' => 'BSc in Cybersecurity',
+                'school' => 'Northern Kentucky University',
+                'time_period' => '2023-present',
             ),
         ),
         'awards' => array(
@@ -226,8 +226,8 @@ $team = array(
                 'proficiency' => 'Native',
             ),
             array(
-                'name' => 'French',
-                'proficiency' => 'Intermediate',
+                'name' => 'Japanese',
+                'proficiency' => 'Beginner (N5 passing)',
             ),
         ),
         'interests' => array('Web Development', 'Reading', 'Hiking'),
