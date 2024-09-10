@@ -144,80 +144,88 @@ $team = array(
         ),
     ),
     2 => array(
-        'name' => 'Sarah Smith',
-		'DOB' => '1995-05-15',
-        'job_title' => 'Software Engineer',
-        'email' => 'sarah.smith@example.com',
-        'phone' => '+1 123-456-7890',
-        'linkedin' => 'linkedin.com/in/sarahsmith',
-        'github' => 'github.com/sarahsmith',
-        'website' => 'sarahsmith.com',
+        'name' => 'Tyler Smith',
+		'DOB' => '2004-11-14',
+        'job_title' => 'Penetration Tester',
+        'email' => 'smitht87@mymail.nku.edu',
+        'phone' => '+1 270-403-1110',
+        'linkedin' => 'www.linkedin.com/in/tyler-smith-153095237',
+        'github' => 'https://github.com/Tylerjetw',
+        'website' => 'tylersmith.com',
 		'image' => 'assets/images/2.jpg',
-        'summary' => "I'm a passionate software engineer with a strong background in web development. I specialize in front-end development using technologies like HTML, CSS, and JavaScript. I have a knack for creating responsive and user-friendly web interfaces. I'm also experienced in back-end development with proficiency in PHP, Python, and Node.js. My goal is to leverage my technical skills to create innovative and efficient software solutions.",
+        'summary' => "Current cybersecurity student at Northern Kentucky University, looking for a paid internship in my chosen field.
+			I have experience in customer service and leadership as a Key carrier at TJMaxx, where I often close the store and do manager tasks alone.
+			I also developed skills as in low voltage engineering while working as a data cable technition at Application Services Inc.
+			A couple of fun facts, I have ran two half marathons at two different national parks in the western United States.
+			I also recently got engaged over the summer while up near glacier national park in Montana.",
         'work_experience' => array(
             array(
-                'position' => 'Front-End Developer',
-                'company' => 'TechCo',
-                'time_period' => '2020 - Present',
-                'description' => "As a Front-End Developer at TechCo, I played a key role in designing and developing user interfaces for web applications. I worked closely with designers and back-end developers to create seamless and visually appealing web experiences. My responsibilities included translating design mockups into responsive web pages, optimizing performance, and ensuring cross-browser compatibility.",
+                'position' => 'Key Carrier',
+                'company' => 'TJMaxx',
+                'time_period' => 'Nov 2023 - Present',
+                'description' => "Watches over everything that happens within the store, assumes role of manager on duty at frequent intervals. 
+				Counts cash in the register, and makes sure that closing the store and locking everything down in the evening. 
+				Assists in inventory management, including stock replenishment and organization of merchandise displays.",
                 'achievements' => array(
-                    'Responsive Designs: Successfully implemented responsive web designs, resulting in improved user experiences across various devices.',
-                    'Performance Optimization: Optimized front-end code to enhance website loading speed and performance.',
-                    'Cross-Browser Compatibility: Ensured that web applications worked smoothly on multiple browsers, including Chrome, Firefox, and Safari.'
+                    '',
+                    '',
+                    ''
                 ),
                 'technologies_used' => array(
-                    'HTML',
-                    'CSS',
-                    'JavaScript',
-                    'React',
-                    'Vue.js'
+                    'Customer Service',
+                    'Employee Management',
+                    'Advertising',
+                    'Customer Satisfaction',
+                    'Merchandising'
                 ),
             ),
             array(
-                'position' => 'Back-End Developer',
-                'company' => 'SoftSys',
-                'time_period' => '2018 - 2020',
-                'description' => "During my time as a Back-End Developer at SoftSys, I focused on building and maintaining server-side components of web applications. I collaborated with front-end developers to design RESTful APIs, implement database functionality, and optimize server performance. My work contributed to the successful deployment of several web applications.",
+                'position' => 'Data Cable Technician',
+                'company' => 'Application Services Inc.',
+                'time_period' => 'May 2024 - August 2024',
+                'description' => "Ran data cables throughout various buildings and construction sites throughout Kentucky. 
+				Terminated and tested the data cables that were run. 
+				Worked extensively with Cat 6, Cat 6A, and Cat 5E data cables.",
                 'achievements' => array(
-                    'API Development: Designed and implemented RESTful APIs to support front-end features and data retrieval.',
-                    'Database Management: Managed and optimized databases to ensure efficient data storage and retrieval.',
-                    'Server Performance: Improved server response times and reduced latency through code optimization.'
+                    '',
+                    '',
+                    ''
                 ),
                 'technologies_used' => array(
-                    'Node.js',
-                    'Express.js',
-                    'Python',
-                    'Django',
-                    'SQL',
-                    'MongoDB'
+                    'Low-Voltage Engineering',
+                    'Construction',
+                    'Power Tools',
+                    '',
+                    '',
+                    ''
                 ),
             ),
         ),
         'skills' => array(
-            'HTML' => 95,
-            'CSS' => 90,
-            'JavaScript' => 92,
-            'PHP' => 88,
-            'Python' => 85,
+            'HTML' => 85,
+            'CSS' => 80,
+            'JavaScript' => 70,
+            'Java' => 75,
+            'Python' => 70,
         ),
         'other_skills' => array(
-            'UI/UX Design',
-            'Git',
-            'Database Management',
-            'API Development',
-            'Agile Methodology',
+            '',
+            '',
+            '',
+            '',
+            '',
         ),
         'education' => array(
             array(
-                'degree' => 'BSc in Computer Science',
-                'school' => 'University of Example',
-                'time_period' => '2016-2020',
+                'degree' => 'BS in Cybersecurity',
+                'school' => 'Northern Kentucky University',
+                'time_period' => '2023-present',
             ),
         ),
         'awards' => array(
             array(
-                'name' => 'Outstanding Student Award',
-                'description' => "Received the Outstanding Student Award for academic excellence and contributions to the university's computer science community.",
+                'name' => 'Kentucky Governors Scholars Program Alumni',
+                'description' => "Attended and graduated the Kentucky GSP, of which only a handful of students from each county are able to participate in.",
             ),
         ),
         'languages' => array(
@@ -226,16 +234,16 @@ $team = array(
                 'proficiency' => 'Native',
             ),
             array(
-                'name' => 'French',
-                'proficiency' => 'Intermediate',
+                'name' => 'Japanese',
+                'proficiency' => 'Beginner (N5 passing)',
             ),
         ),
-        'interests' => array('Web Development', 'Reading', 'Hiking'),
+        'interests' => array('Board Games', 'Reading', 'Hiking'),
         'projects' => array(
             array(
                 'name' => 'Portfolio Website',
                 'description' => 'Designed and developed a personal portfolio website to showcase my work and skills.',
-                'link' => 'https://sarahsmith.com',
+                'link' => 'https://tylers.com',
                 'image' => 'assets/images/portfolio.jpg',
             ),
             array(
