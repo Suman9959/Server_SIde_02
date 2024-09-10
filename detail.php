@@ -247,96 +247,92 @@ $team = array(
         ),
     ),
     3 => array(
-        'name' => 'John Doe',
-		'DOB' => '1990-01-01', 
-        'job_title' => 'Data Scientist',
-        'email' => 'john.doe@example.com',
-        'phone' => '+1 987-654-3210',
-        'linkedin' => 'linkedin.com/in/johndoe',
-        'github' => 'github.com/johndoe',
-        'website' => 'johndoe.com',
+        'name' => 'Suman Bhandari',
+		'DOB' => '2004-02-05',
+        'job_title' => 'Aspiring Software Engineer',
+        'email' => 'bhandaris6@nku.edu',
+        'phone' => '859-786-4228',
+        'linkedin' => 'linkedin.com/in/suman9959',
+        'github' => 'github.com/Suman9959',
+        'website' => 'https://theuselessweb.com',
 		'image' => 'assets/images/3.jpg',
-        'summary' => "I'm a data scientist with a passion for analyzing and interpreting complex data to drive business insights. I have experience in machine learning, statistical analysis, and data visualization. My expertise in Python, R, and data analysis tools allows me to extract valuable information from large datasets. I'm dedicated to solving real-world problems through data-driven decision-making.",
+        'summary' => "I am a Computer Science student with a strong background in database programming, object-oriented programming, and a solid understanding of data structures and algorithms. I am actively seeking software engineering internships. I am eager to tackle complex challenges and contribute to impactful projects in the software engineering industry. Passionate about coding, I look forward to new challanges. I'm set to graduate in May 2025.",  
         'work_experience' => array(
-            array(
-                'position' => 'Data Analyst',
-                'company' => 'DataTech Solutions',
-                'time_period' => '2019 - Present',
-                'description' => "As a Data Analyst at DataTech Solutions, I've been responsible for collecting, cleaning, and analyzing data from various sources. I've also played a key role in developing data-driven reports and dashboards to provide insights to clients. My work has helped clients make informed decisions and optimize their operations.",
-                'achievements' => array(
-                    'Data Visualization: Created interactive data visualizations and dashboards using tools like Tableau and Power BI.',
-                    'Predictive Modeling: Developed predictive models to forecast future trends and make recommendations for improvement.',
-                    'Client Collaboration: Worked closely with clients to understand their data needs and deliver actionable insights.'
-                ),
-                'technologies_used' => array(
+			array(
+                'position' => 'ESPN Production Crew Member',
+                'company' => 'NKU',
+                'time_period' => 'Novermber 2021 - Present',
+                'description' => "
+Responsibilities: Coordinating and executing broadcasts of NKU games on ESPN+, serving as cameras and graphics operator to enhance
+visual presentation and ensure seamless operation during events. Managing setup and maintenance of broadcasting equipment, overseeing office tasks, and collaborating with team
+members to ensure the smooth execution of university events and broadcasts.",
+'achievements' => array('Coordinated and executed ESPN+ broadcasts of NKU games, enhancing visual presentation through camera and graphics operation, while managing broadcast setup and equipment maintenance.'
+),
+'technologies_used' => array(
+                    'Microsoft Office Suite',
+                    'Adobe Photoshop',
                     'Python',
-                    'R',
-                    'SQL',
-                    'Tableau',
-                    'Power BI'
+        
                 ),
+
+
+                
             ),
             array(
-                'position' => 'Research Assistant',
-                'company' => 'University Research Lab',
-                'time_period' => '2017 - 2019',
-                'description' => "During my time as a Research Assistant, I collaborated on various research projects related to machine learning and data analysis. I conducted experiments, collected data, and performed statistical analysis. I also contributed to research papers and presentations.",
-                'achievements' => array(
-                    'Research Contributions: Co-authored research papers presented at international conferences.',
-                    'Experimental Design: Designed and executed experiments to collect data for analysis.',
-                    'Statistical Analysis: Conducted statistical tests and data analysis using R and Python.'
+                'position' => 'SU Information Desk Attendant',
+                'company' => 'NKU',
+                'time_period' => '2021 - Present',
+                'description' => "Responsibility: Providing exceptional customer service by resolving issues and directing individuals to appropriate resources, ensuring a positive and efficient experience for students, staff, and visitors. Handling inquiries and manage requests at the information desk, demonstrating strong problem-solving skills and the ability to provide accurate information and support in a fast-paced environment.",
+                
+                
+                'achievements' => array('Achieved a 95% customer satisfaction rate by efficiently resolving inquiries and directing individuals to appropriate resources in a fast-paced environment.'
                 ),
+               
+                
                 'technologies_used' => array(
-                    'Python',
-                    'R',
+                    'Help Desk Ticketing Software',
                     'Data Analysis Tools',
-                    'Machine Learning Libraries'
+                    'Microsoft Office Suite'
                 ),
             ),
         ),
         'skills' => array(
-            'Python' => 95,
-            'R' => 90,
-            'Data Analysis' => 92,
-            'Machine Learning' => 88,
-            'Statistical Analysis' => 85,
+            'Java' => 89,
+            'JavaScript' => 70,
+	     'Python' => 80,
+            'Linux Configuration' => 95,
+            'C' => 60,
+	     'C++' => 80,
+            'Kotlin' => 70,
         ),
         'other_skills' => array(
-            'Data Visualization',
-            'Database Management',
-            'Statistical Modeling',
-            'Machine Learning',
-            'Data Ethics',
+            'git','MongoDB' , 'SQL','Software Development Life Cycle' , 'Agile Methodologies',
         ),
         'education' => array(
             array(
-                'degree' => 'MSc in Data Science',
-                'school' => 'Example University',
-                'time_period' => '2015-2017',
-            ),
-            array(
-                'degree' => 'BSc in Statistics',
-                'school' => 'Another University',
-                'time_period' => '2011-2015',
-            ),
+                'degree' => 'BSC in Computer Science',
+                'school' => 'Northern Kentucky University',
+                'time_period' => '2021-2025',
+            )
+    
         ),
         'awards' => array(
             array(
-                'name' => 'Outstanding Researcher Award',
-                'description' => "Received the Outstanding Researcher Award for significant contributions to the university's research efforts.",
+                'name' => 'Eva G. Farris Informatic Award',
+                'description' => "Received the Outstanding student award for academic efforts.",
             ),
         ),
         'languages' => array(
             array(
-                'name' => 'English',
+                'name' => 'Nepali',
                 'proficiency' => 'Native',
             ),
             array(
-                'name' => 'Spanish',
-                'proficiency' => 'Intermediate',
+                'name' => 'English',
+                'proficiency' => 'Fluent',
             ),
         ),
-        'interests' => array('Data Analysis', 'Machine Learning', 'Hiking'),
+        'interests' => array('Soccer','Data Analysis', 'Machine Learning', 'Hiking'),
         'projects' => array(
             array(
                 'name' => 'Predictive Analytics for Sales',
